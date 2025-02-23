@@ -166,3 +166,23 @@ color: white;
           top: 0%;
      }
     }
+
+
+    @media (max-width: 768px) {
+        .botao {
+            margin: 0 20px;
+        }
+
+        .botao1::before {
+            left: -50px;
+        }   
+
+
+        body {
+            height: auto;
+        }
+       
+
+
+    
+    }
